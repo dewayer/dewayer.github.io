@@ -17,16 +17,25 @@ body {
 .box {
     display: table-cell;
     vertical-align: middle;
+}
+
+.circle {
+    display: table;
     margin: auto;
     width: 300px;
+    height: 300px;
+    border-radius: 150px;
+    background-color: #EEE;
 }
 
 .text {
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
     font-family: "Helvetica Neue", sans-serif; 
     font-size: 2em;
     font-weight: 500;
-    color: #CCC;
+    color: #FFF;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
      -khtml-user-select: none;
